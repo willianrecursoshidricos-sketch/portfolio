@@ -15,7 +15,7 @@ body {
 
 /* CABEÇALHO */
 header {
-    background-color: #111827;
+    background-color: #0e4bcf;
     color: white;
     padding: 40px 20px;
     text-align: center;
@@ -44,7 +44,7 @@ section {
 
 /* TÍTULOS */
 h2 {
-    border-bottom: 2px solid #111827;
+    border-bottom: 2px solid #838ea5;
     padding-bottom: 5px;
 }
 
@@ -58,7 +58,7 @@ h2 {
 
 /* LINKS */
 a {
-    color: #2563eb;
+    color: #1c5be2;
     text-decoration: none;
     font-weight: bold;
 }
