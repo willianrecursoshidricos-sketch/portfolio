@@ -2,64 +2,148 @@
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
-    <title>Willian | Data Science Portfolio</title>
+    <title>Willian Geraldo da Silva | Portfólio</title>
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+          content="Portfólio profissional de Willian Geraldo da Silva, Engenheiro Ambiental e Sanitarista com atuação em Ciência de Dados e Machine Learning.">
+
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
+<!-- ================= HEADER ================= -->
 <header>
-    <h1>Willian Geraldo da Silva</h1>
-    <p>Engenheiro Ambiental e Sanitarista | Cientista de Dados | Machine Learning</p>
+    <div class="header-container">
+        <h1>Willian Geraldo da Silva</h1>
+
+        <p class="subtitle">
+            Engenheiro Ambiental e Sanitarista <br>
+            Ciência de Dados & Machine Learning aplicados a Recursos Hídricos
+        </p>
+
+        <nav class="header-links">
+            <span>📍 Patos de Minas – MG</span>
+
+            <a href="mailto:willianrecursoshidricos@gmail.com">
+                Email
+            </a>
+
+            <a href="https://www.linkedin.com/in/willian-silva-7b4332115"
+               target="_blank" rel="noopener">
+                LinkedIn
+            </a>
+
+            <a href="https://github.com/willianrecursoshidricos-sketch"
+               target="_blank" rel="noopener">
+                GitHub
+            </a>
+
+            <!-- Pode apontar para o PDF do Lattes -->
+            <a href="https://lattes.cnpq.br/0447202539684196" target="_blank" rel="noopener">
+                Currículo Lattes
+            </a>
+        </nav>
+    </div>
 </header>
 
-<main>
+<!-- ================= MAIN ================= -->
+<main class="container">
 
-<section id="about">
-    <h2>Sobre mim</h2>
-    <p>
-        Engenheiro Ambiental e Sanitarista com atuação em Ciência de Dados e Machine Learning, 
-        com experiência em modelagem preditiva, análise de séries temporais, sensoriamento remoto
-        e análise de dados utilizando Python e R..
-    </p>
-</section>
-
-<section id="projects">
-    <h2>Projetos</h2>
-
-    <div class="project">
-        <h3>Machine Learning para Predição da Qualidade da Água</h3>
+    <!-- ===== SOBRE ===== -->
+    <section id="about">
+        <h2>Sobre mim</h2>
         <p>
-            Modelos de Machine Learning para estimar turbidez, sólidos totais e SDT
-            a partir de dados espectrais do satélite Sentinel-2.
-        </p>
-        <p class="tech">
-            Python · Pandas · Scikit-learn · Remote Sensing
-        </p>
-        <a href="https://github.com/seuusuario/ml-water-quality-sentinel2" target="_blank">
-            Ver no GitHub
-        </a>
-    </div>
+            Engenheiro Ambiental e Sanitarista com atuação em Ciência de Dados e Machine Learning,
+            com experiência em modelagem preditiva, análise de séries temporais, sensoriamento remoto
+            e análise de dados utilizando Python e R.
 
-</section>
+        </p>
+    </section>
 
-<section id="contact">
-    <h2>Contato</h2>
-    <p>Email: willianrecursoshidricos@gmail.com</p>
-    <p>
-        GitHub:
-        <a href="https://github.com/seuusuario" target="_blank">
-            github.com/seuusuario
-        </a>
-    </p>
-</section>
+    <!-- ===== PROJETOS ===== -->
+    <section id="projects">
+        <h2>Projetos</h2>
+
+        <div class="projects-grid">
+
+            <!-- ===== PROJETO PRINCIPAL ===== -->
+            <div class="project-card">
+
+                <!-- Imagem opcional do projeto -->
+                <!--
+                <img src="assets/mapas_turbidez.png"
+                     alt="Mapa de turbidez estimada"
+                     class="project-image">
+                -->
+
+                <h3>Predição da Turbidez da Água com Sentinel-2</h3>
+
+                <p class="project-description">
+                    Aplicação de modelos de Machine Learning supervisionado
+                    (Random Forest, SVM e Decision Tree) para estimar a turbidez da
+                    água (NTU) a partir de bandas espectrais do satélite Sentinel-2.
+                    O projeto integra análise exploratória, correlação espectral
+                    (Pearson + IC 95%), modelagem preditiva e geração de mapas
+                    espaciais de turbidez.
+                </p>
+
+                <p class="tech">
+                    Python · Pandas · Scikit-learn · Machine Learning ·
+                    Sensoriamento Remoto
+                </p>
+
+                <a href="https://github.com/willianrecursoshidricos-sketch/ml-turbidez-sentinel2"
+                   target="_blank" rel="noopener">
+                    Ver projeto no GitHub →
+                </a>
+            </div>
+
+            <!-- ===== MODELO PARA FUTUROS PROJETOS ===== -->
+            <!--
+            <div class="project-card">
+                <h3>Título do Projeto</h3>
+                <p class="project-description">
+                    Descrição curta do projeto.
+                </p>
+                <p class="tech">
+                    Python · R · Machine Learning
+                </p>
+                <a href="#" target="_blank">Ver projeto →</a>
+            </div>
+            -->
+
+        </div>
+    </section>
+
+    <!-- ===== CONTATO ===== -->
+    <section id="contact">
+        <h2>Contato</h2>
+
+        <p>
+            Email:
+            <a href="mailto:willianrecursoshidricos@gmail.com">
+                willianrecursoshidricos@gmail.com
+            </a>
+        </p>
+
+        <p>
+            GitHub:
+            <a href="https://github.com/willianrecursoshidricos-sketch"
+               target="_blank" rel="noopener">
+                github.com/willianrecursoshidricos-sketch
+            </a>
+        </p>
+    </section>
 
 </main>
 
+<!-- ================= FOOTER ================= -->
 <footer>
     <p>© 2025 — Willian Geraldo da Silva</p>
 </footer>
 
 </body>
 </html>
+
 
