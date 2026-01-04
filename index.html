@@ -2,148 +2,254 @@
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
-    <title>Willian Geraldo da Silva | Portfólio</title>
+    <title>Willian Geraldo da Silva | Portfólio em Ciência de Dados</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description"
-          content="Portfólio profissional de Willian Geraldo da Silva, Engenheiro Ambiental e Sanitarista com atuação em Ciência de Dados e Machine Learning.">
+          content="Portfólio profissional de Willian Geraldo da Silva — Ciência de Dados, Engenharia de Dados e aplicações ambientais.">
 
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="teste1.css">
 </head>
 <body>
 
 <!-- ================= HEADER ================= -->
-<header>
-    <div class="header-container">
-        <h1>Willian Geraldo da Silva</h1>
-
-        <p class="subtitle">
-            Engenheiro Ambiental e Sanitarista <br>
-            Ciência de Dados & Machine Learning aplicados a Recursos Hídricos
-        </p>
-
-        <nav class="header-links">
-            <span>📍 Patos de Minas – MG</span>
-
-            <a href="mailto:willianrecursoshidricos@gmail.com">
-                Email
-            </a>
-
-            <a href="https://www.linkedin.com/in/willian-silva-7b4332115"
-               target="_blank" rel="noopener">
-                LinkedIn
-            </a>
-
-            <a href="https://github.com/willianrecursoshidricos-sketch"
-               target="_blank" rel="noopener">
-                GitHub
-            </a>
-
-            <!-- Pode apontar para o PDF do Lattes -->
-            <a href="https://lattes.cnpq.br/0447202539684196" target="_blank" rel="noopener">
-                Currículo Lattes
-            </a>
-        </nav>
-    </div>
+<header class="top-bar">
+    <p>Portfólio de Projetos em Ciência de Dados</p>
 </header>
 
-<!-- ================= MAIN ================= -->
-<main class="container">
+<!-- ================= HERO ================= -->
+<section class="hero container">
+    <div class="hero-text">
+        <h1>
+            Olá, seja muito bem-vindo(a) ao meu portfólio de
+            <span>Ciência de Dados</span>.
+        </h1>
 
-    <!-- ===== SOBRE ===== -->
-    <section id="about">
-        <h2>Sobre mim</h2>
         <p>
-            Engenheiro Ambiental e Sanitarista com atuação em Ciência de Dados e Machine Learning,
-            com experiência em modelagem preditiva, análise de séries temporais, sensoriamento remoto
-            e análise de dados utilizando Python e R.
+            Nesta página apresento projetos práticos de Ciência de Dados,
+            Engenharia de Dados e Análise de Dados, aplicados tanto a problemas
+            ambientais quanto a contextos gerais de negócio.
+        </p>
+
+        <p>
+            O objetivo é demonstrar minha capacidade de estruturar dados,
+            analisar informações, construir modelos e gerar valor a partir
+            de dados reais.
+            
+ <p>
+            Sinta-se à vontade para entrar em contato através dos links no final da página.
 
         </p>
-    </section>
+    </div>
 
-    <!-- ===== PROJETOS ===== -->
-    <section id="projects">
-        <h2>Projetos</h2>
+    <div class="hero-image">
+        <!-- Pode trocar por uma imagem de água, dados ou sua foto -->
+        <img src="assetsperfil.jpeg" alt="Willian Geraldo da Silva" class="foto-perfil">
+    </div>
+</section>
 
-        <div class="projects-grid">
+<hr>
 
-            <!-- ===== PROJETO PRINCIPAL ===== -->
-            <div class="project-card">
+<!-- ================= SOBRE ================= -->
+<section class="container">
+    <h2>Sobre mim</h2>
 
-                <!-- Imagem opcional do projeto -->
-                <!--
-                <img src="assets/mapas_turbidez.png"
-                     alt="Mapa de turbidez estimada"
-                     class="project-image">
-                -->
+    <p>
+        Meu nome é <strong>Willian Geraldo da Silva</strong>. Sou Engenheiro Ambiental
+        e Sanitarista.
+    </p>
 
-                <h3>Predição da Turbidez da Água com Sentinel-2</h3>
+    <p>
+        Ao longo da minha trajetória, passei a atuar fortemente com análise de dados,
+        geoprocessamento, sensoriamento remoto e qualidade da água, o que me levou
+        naturalmente à Ciência de Dados e à Engenharia de Dados.
+    </p>
 
-                <p class="project-description">
-                    Aplicação de modelos de Machine Learning supervisionado
-                    (Random Forest, SVM e Decision Tree) para estimar a turbidez da
-                    água (NTU) a partir de bandas espectrais do satélite Sentinel-2.
-                    O projeto integra análise exploratória, correlação espectral
-                    (Pearson + IC 95%), modelagem preditiva e geração de mapas
-                    espaciais de turbidez.
-                </p>
+    <p>
+        Hoje trabalho com Python, SQL, Power BI e ferramentas de análise e visualização
+        de dados, aplicando conceitos de estatística, machine learning e modelagem
+        preditiva em dados ambientais, hidrológicos e espaciais.
+    </p>
 
-                <p class="tech">
-                    Python · Pandas · Scikit-learn · Machine Learning ·
-                    Sensoriamento Remoto
-                </p>
+      </p>
+</section>
 
-                <a href="https://github.com/willianrecursoshidricos-sketch/ml-turbidez-sentinel2"
-                   target="_blank" rel="noopener">
-                    Ver projeto no GitHub →
-                </a>
+<hr>
+
+<!-- ================= HABILIDADES ================= -->
+<section id="skills" class="container">
+    <h2>Habilidades</h2>
+    <div class="section-line"></div>
+
+    <div class="skills-grid">
+
+        <!-- PROGRAMAÇÃO -->
+        <div class="skill-item">
+            <div class="icon diamond">💎</div>
+            <div>
+                <h3>Programação e Manipulação de Dados</h3>
+                <ul>
+                    <li>Python aplicado à análise de dados, automação e modelagem</li>
+                    <li>R para análise estatística e exploração de dados</li>
+                    <li>Pandas e NumPy para limpeza, transformação e organização de dados</li>
+                    <li>SQL para consultas, análise e integração de dados</li>
+                    <li>Versionamento de código com Git e GitHub</li>
+                    <li>Uso de terminal e linha de comando (Linux)</li>
+                </ul>
             </div>
-
-            <!-- ===== MODELO PARA FUTUROS PROJETOS ===== -->
-            <!--
-            <div class="project-card">
-                <h3>Título do Projeto</h3>
-                <p class="project-description">
-                    Descrição curta do projeto.
-                </p>
-                <p class="tech">
-                    Python · R · Machine Learning
-                </p>
-                <a href="#" target="_blank">Ver projeto →</a>
-            </div>
-            -->
-
         </div>
-    </section>
 
-    <!-- ===== CONTATO ===== -->
-    <section id="contact">
-        <h2>Contato</h2>
+        <!-- ENGENHARIA DE DADOS -->
+        <div class="skill-item">
+            <div class="icon diamond">⚙️</div>
+            <div>
+                <h3>Engenharia de Dados</h3>
+                <ul>
+                    <li>Construção de pipelines de dados (coleta → limpeza → análise → BI)</li>
+                    <li>ETL: ingestão, transformação e exportação de dados</li>
+                    <li>Web Scraping com Selenium, Requests e BeautifulSoup</li>
+                    <li>APIs e automação de coleta de dados</li>
+                    <li>Armazenamento com SQLite e arquivos estruturados</li>
+                </ul>
+            </div>
+        </div>
 
-        <p>
-            Email:
-            <a href="mailto:willianrecursoshidricos@gmail.com">
-                willianrecursoshidricos@gmail.com
+        <!-- ESTATÍSTICA E ML -->
+        <div class="skill-item">
+            <div class="icon diamond">📐</div>
+            <div>
+                <h3>Estatística e Machine Learning</h3>
+                <ul>
+                    <li>Análise exploratória de dados (EDA)</li>
+                    <li>Regressão, classificação e clusterização</li>
+                    <li>Machine Learning não supervisionado (Isolation Forest)</li>
+                    <li>Detecção de padrões atípicos e outliers</li>
+                    <li>Métricas: RMSE, MAE, MAPE, R², ROC</li>
+                    <li>Scikit-learn e XGBoost</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- IA / LLM -->
+        <div class="skill-item">
+            <div class="icon diamond">🚀</div>
+            <div>
+                <h3>Inteligência Artificial e LLMs</h3>
+                <ul>
+                    <li>Large Language Models (LLMs)</li>
+                    <li>Engenharia de Prompt</li>
+                    <li>RAG (Retrieval-Augmented Generation)</li>
+                    <li>LlamaIndex</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- VISUALIZAÇÃO E BI -->
+        <div class="skill-item">
+            <div class="icon diamond">📊</div>
+            <div>
+                <h3>Visualização de Dados e Business Intelligence</h3>
+                <ul>
+                    <li>Power BI para dashboards interativos</li>
+                    <li>Criação de indicadores visuais e alertas de risco</li>
+                    <li>Visualização orientada a usuários não técnicos</li>
+                    <li>Matplotlib, Seaborn e Plotly</li>
+                    <li>Streamlit para aplicações analíticas</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- GEOESPACIAL E AMBIENTAL -->
+        <div class="skill-item">
+            <div class="icon diamond">🌍</div>
+            <div>
+                <h3>Geoprocessamento e Dados Ambientais</h3>
+                <ul>
+                    <li>ArcGIS e QGIS para análise espacial</li>
+                    <li>Sensoriamento remoto com dados Sentinel-2</li>
+                    <li>Análise de qualidade da água</li>
+                    <li>Modelagem aplicada a recursos hídricos</li>
+                    <li>Integração de dados geoespaciais e tabulares</li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<!-- ================= PROJETOS ================= -->
+<section class="container">
+    <h2>Projetos</h2>
+
+    <div class="projects-grid">
+
+        <div class="project-card">
+            <h3>Estimativa da Turbidez da Água com Sentinel-2</h3>
+
+            <p>
+                Desenvolvimento de modelos de Machine Learning para estimar
+                turbidez da água a partir de bandas espectrais do Sentinel-2,
+                incluindo análise exploratória, correlação espectral e mapas
+                espaciais.
+            </p>
+
+            <p class="tech">
+                Python · Machine Learning · Sensoriamento Remoto · SIG
+            </p>
+
+            <a href="https://github.com/willianrecursoshidricos-sketch/ml-turbidez-sentinel2"
+               target="_blank">
+                Ver projeto no GitHub →
             </a>
-        </p>
+        </div>
 
-        <p>
-            GitHub:
-            <a href="https://github.com/willianrecursoshidricos-sketch"
-               target="_blank" rel="noopener">
-                github.com/willianrecursoshidricos-sketch
-            </a>
-        </p>
-    </section>
+        <div class="project-card">
+    <h3>Análise de Risco de Fundos Imobiliários (FIIs)</h3>
 
-</main>
+    <p>
+        Projeto de análise de risco de Fundos Imobiliários brasileiros utilizando
+        <strong>Web Scraping</strong>, <strong>Machine Learning não supervisionado
+        (Isolation Forest)</strong> e <strong>Power BI</strong>.
+        O objetivo é identificar comportamentos atípicos em dividendos, liquidez
+        e setores, de forma exploratória e visual.
+    </p>
 
-<!-- ================= FOOTER ================= -->
+    <p class="tech">
+        Python · Web Scraping · Machine Learning · Isolation Forest · Power BI
+    </p>
+
+    <a href="https://github.com/willianrecursoshidricos-sketch/fii-risk-analysis"
+       target="_blank">
+        Ver projeto no GitHub →
+    </a>
+</div>
+</section>
+
+<hr>
+
+<!-- ================= CONTATO ================= -->
+<section class="container contact">
+    <h2>Contato</h2>
+
+    <p>Email:
+        <a href="mailto:willianrecursoshidricos@gmail.com">
+            willianrecursoshidricos@gmail.com
+        </a>
+    </p>
+
+    <p>
+        <a href="https://www.linkedin.com/in/willian-silva-7b4332115" target="_blank">
+            LinkedIn
+        </a> ·
+        <a href="https://github.com/willianrecursoshidricos-sketch" target="_blank">
+            GitHub
+        </a>
+    </p>
+</section>
+
 <footer>
     <p>© 2025 — Willian Geraldo da Silva</p>
 </footer>
 
 </body>
 </html>
-
-
